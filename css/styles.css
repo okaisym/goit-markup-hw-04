@@ -364,6 +364,9 @@ img {
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
+}
+
+.portfolio-link {
     display: block;
 }
 
@@ -496,5 +499,5 @@ img {
     color: #FFFFFF;
     max-width: 300px;
     font-weight: 500;
-    padding-bottom: 16px;
+    margin-bottom: 16px; 
 }
