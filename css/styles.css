@@ -139,7 +139,7 @@ img {
     max-height: 600px;
     max-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,7 +290,7 @@ img {
     gap: 24px;
 }
 
-.instagram-icon {
+.media-icon {
     fill: #f4f4fd;
 }
 
@@ -314,8 +314,8 @@ img {
     background-color: #404bbf;
 }
 
-.instagram-icon {
-    fill: red;
+.media-icon {
+    fill: #f4f4fd;
 }
 
 .btn-text-portfolio {
@@ -367,8 +367,8 @@ img {
     display: block;
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
